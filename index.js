@@ -15,8 +15,6 @@ app.use(cors())
 app.use(express.json())
 
 
-
-
 const Port = process.env.PORT  || 8000
 
 app.use('/api/v1/auth',authRoutes)
